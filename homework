@@ -1,0 +1,77 @@
+   0 mkdir /home/animals
+   1 tree
+   2 cd..
+   3 cd ..
+   4 tree
+   5 ls
+   6 cd home
+   7 ls
+   8 mkdir --help
+   9 mkdir -r /home/animals/dogs/cats/fish
+  10 cd fish
+  11 tree
+  12 mkdir -r /home/animals/dogs/cats/fish/
+  13 cd animals
+  14 cd dogs
+  15 cd
+  16 cd animals
+  17 cd animals/
+  18 cd /home/animals
+  19 tree
+  20 mkdir dogs
+  21 cd dogs
+  22 mkdir cats
+  23 cd cats
+  24 mkdir fish
+  25 mkdir -p /home/animals/dogs/cats/fish/eat
+  26 cd /home/animals/dogs/cats/fish/eat
+  27 touch --help
+  28 rm eat
+  29 rm
+  30 rm -r eat
+  31 rm -r /home/animals/dogs/cats/fish/eat
+  32 cd ..
+  33 tree
+  34 cd /animals/dogs
+  35 cd /home/animals/dogs
+  36 touch pluto
+  37 ls
+  38 ls -a
+  39 cd cats
+  40 garfield
+  41 cd fish
+  42 mkdir -p /home/planets
+  43 cd
+  44 home
+  45 cd ..
+  46 cd home
+  47 ls
+  48 cd /opt
+  49 touch merkury
+  50 touch venus
+  51 touch mars
+  52 touch jupiter
+  53 tree
+  54 touch -help
+  55 touch -r /home/tmp/adam
+  56 cd ..
+  57 tmp
+  58 ls
+  59 cd tmp
+  60 touch adam
+  61 mv
+  62 history
+  63 mv /opt/merkury /home/planets
+  64 mv /opt/venus /home/planets
+  65 mv /opt/mars /home/planets
+  66 mv /opt/jupiter /home/planets
+  67 ls
+  68 mkdir -p /home/humans
+  69 touch evA
+  70 mv evA /opt/eve
+  71 ls
+  72 cp adam /home/humans
+  73 mv /opt/eve /home/humans
+  74 cd /home/humans
+  75 ls
+  76 history > homework
