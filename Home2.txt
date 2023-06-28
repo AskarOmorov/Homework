@@ -1,0 +1,29 @@
+   0 mkdir -p /home/user/start
+   1 touch /home/user/start/1.txt
+   2 echo "Start" >  /home/user/start/1.txt
+   3 date >> /home/user/start/1.txt 
+   4 /opt/task
+   5 mkdir opt/task
+   6 mkdir /opt/task
+   7 touch /opt/task/start.txt
+   8 cp --h
+   9 cp /home/user/start/1.txt  /opt/task/start.txt
+  10 ls -a /
+  11 ls -a / | tail -4 >> /opt/task/start.txt 
+  12 mkdir /tmp/testnew
+  13 cp -r /opt/task /tmp/testnew
+  14 /root/readme.txt >> /tmp/testnew/task/start.txt
+  15 cd /root
+  16 ls
+  17 readme.txt >> /tmp/testnew/task/start.txt
+  18 cat /tmp/testnew/task/start.txt
+  19 cat readme.txt
+  20 cat readme.txt >> /tmp/testnew/task/start.txt
+  21 rm -rf /opt/task
+  22 cd /opt
+  23 ls
+  24 cat /tmp/testnew/task/start.txt
+  25 export_fail history > Home2.txt
+  26 history
+  27 history export_fail Home2.txt
+  28 history > Home2.txt
